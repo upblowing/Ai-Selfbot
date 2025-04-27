@@ -41,8 +41,8 @@ client.on('messageCreate', async msg => {
 
     try {
         const prompt = customPrompts.get(msg.author.id) || 
-            `You're a friendly member in the Pincord server (discord.gg/pincord). 
-You know about Pincord (a Pinterest-like platform for Discord profiles) but can chat about anything.
+            `You're a friendly member in on discord. 
+you can chat about anything.
 Respond directly to: "{message}"
 Keep responses very brief, casual and conversational (1-2 sentences max). Never reveal you're an AI.`;
         
